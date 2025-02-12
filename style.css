@@ -1,0 +1,207 @@
+.body{
+    background-color: black;
+
+  
+   
+}
+a{
+
+    align-items: center;
+    text-decoration: none;
+    color: azure;
+    
+ 
+}
+nav{
+    display: flex;
+    text-align: center;
+    background-color: rgb(102, 60, 8);
+    margin-bottom: 1px;
+    width: 100%;
+    border-radius: 5px;
+   
+
+}
+
+nav li{
+    list-style: none;
+    margin:0 2px;
+    padding: 0;
+    display: inline;
+    justify-content:space-between;
+    background-color: rgba(99, 50, 50, 0);
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+nav li a:hover{
+    background-color: rgb(51, 30, 3);
+    color: rgb(214, 202, 202);
+    border-radius: 10px;
+    padding: 5px;
+}
+.logo{
+    float: left;
+    padding: 5px;
+    width: 40px;
+    border-radius: 50%;
+}
+.intro{
+    background-image: url('V.png');
+    padding:5px;
+    height:100vh;
+}
+.course{
+    font-size: smaller;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    
+}
+.intro.h5{
+    margin-bottom: 0%;
+}
+.introcard{
+    padding-right: 10px;
+    border-radius: 5px;
+    color: bisque;
+    padding: 10px;
+    width:100%;
+    align-content: center;
+    height:100%
+}
+.skill{
+   
+    border-radius: 10px;
+    padding: 40px;
+
+    width: 100%;
+    margin-top: 5px;
+    color: beige;
+}
+.container{
+
+    background-color: gray;
+
+}
+.skills{
+    text-align: right;
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+.html{
+    width:90%;
+    background-color: green
+}
+.javascript{
+    width:60%;
+    background-color: orange;
+
+}
+.python{
+    width: 75%;
+    background-color: black;
+}
+.django{
+    width: 70%;
+    background-color: rgb(150, 38, 38);
+}
+.python{
+    width: 75%;
+    background-color: rgb(53, 15, 15);
+}
+.php{
+    width: 65%;
+    background-color: rgb(151, 69, 110);
+}
+.flask{
+    width: 80%;
+    background-color: rgb(68, 45, 45);
+}
+.kivy{
+    width: 75%;
+    background-color: rgb(41, 5, 88);
+}
+.projects{
+  
+    padding:20px;
+    height: 70vh;
+    
+
+
+}
+.contact{
+    color:bisque;
+    height: 100vh;
+    margin-top: 10px;
+    padding: 40px;
+}
+.contact a{
+    color:rgb(96, 7, 148);
+    font-size:xx-large;
+}
+.footer{
+    color:black;
+    background-color: bisque;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 5px;
+}
+.otherskills{
+    background-image: url('codedecor.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    height:100vh;
+    padding: 20px;
+}
+.other1{
+    background-color: rgb(80, 54, 21);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(44, 250, 147);
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+#contact{
+    font-size: large;
+    color:rgb(184, 118, 37)
+}
+.project1{
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 25%;
+    height: fit-content;
+    text-align: center;
+
+}
+.projectstack{
+
+    border-radius: 5px;
+    display: flex;
+    flex-wrap:nowrap;
+    
+  
+}
+.projectimage{
+    width:80%;
+    height: 100%;
+    padding: 10px;
+}
+#projects{
+    color:rgb(223, 220, 216);
+    
+    background-color: black;
+}
+#otherskills{
+    background-color: rgb(65, 15, 15);
+    color: bisque;
+    text-align: center;
+    padding: 10px;
+}
