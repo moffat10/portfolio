@@ -47,7 +47,9 @@ nav li a:hover{
     border-radius: 50%;
 }
 .intro{
-    background-image: url('V.png');
+    background-image: url('moffat.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
     padding:5px;
     height:100vh;
 }
@@ -58,25 +60,26 @@ nav li a:hover{
     
 }
 .intro.h5{
-    margin-bottom: 0%;
+    float: right;
 }
 .introcard{
-    padding-right: 10px;
+    padding: 10px;
     border-radius: 5px;
     color: bisque;
-    padding: 10px;
+    text-align: center;
     width:100%;
-    align-content: center;
     height:100%
 }
 .skill{
    
     border-radius: 10px;
     padding: 40px;
-
-    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
     margin-top: 5px;
     color: beige;
+   
 }
 .container{
 
@@ -156,6 +159,9 @@ nav li a:hover{
     border-radius: 4px;
     height:100vh;
     padding: 20px;
+}
+.otherskills img{
+    opacity: 50%;
 }
 .other1{
     background-color: rgb(80, 54, 21);
