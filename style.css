@@ -47,11 +47,12 @@ nav li a:hover{
     border-radius: 50%;
 }
 .intro{
-    background-image: url('moffat.jpg');
-    background-size: contain;
+    background-image: url('banner.jpg');
+    background-size:cover;
     background-repeat: no-repeat;
     padding:5px;
     height:100vh;
+ 
 }
 .course{
     font-size: smaller;
@@ -60,13 +61,17 @@ nav li a:hover{
     
 }
 .intro.h5{
-    float: right;
+    float: left;
+}
+.titles{
+    font-size: x-large;
 }
 .introcard{
     padding: 10px;
+    margin-top: 100px;
     border-radius: 5px;
     color: bisque;
-    text-align: center;
+    text-align: left;
     width:100%;
     height:100%
 }
@@ -167,7 +172,7 @@ nav li a:hover{
     background-color: rgb(80, 54, 21);
     padding: 5px;
     border-radius: 5px;
-    color: rgb(44, 250, 147);
+    color: rgb(225, 235, 230);
     font-weight: bolder;
     font-size: large;
     text-align: center;
